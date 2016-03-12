@@ -1,0 +1,37 @@
+{{extend 'layout.html'}}
+<html>
+<body style="background-image:url(/shoppy/static/images/back2.jpg);background-size:200% 300%;background-repeat: no-repeat;">
+
+<h1>
+    <u>CART</u>
+</h1>
+{{total=0}}
+<table>
+    <tr>
+        <th>product id</th>
+        <th>title</th>
+        <th>price</th>
+        <th>offer</th>
+    </tr>
+{{for rows in cartitems:}}
+    <tr>
+        <a href="{{=URL('showitems',args=rows[0][db.store.id])}}">
+            <td>{{=rows[0][db.store.P_id]}}</td>
+            <td>{{=rows[0][db.store.title]}}</td>
+        </a>
+        <td>{{=rows[0][db.store.price]}}</td>
+        <td>{{=rows[0][db.store.offer]}}</td>
+        {{total+=(rows[0][db.store.price]*(100-rows[0][db.store.offer])/100)}}
+        <td>{{=A('delete',_class='btn',_href=URL('delete',args=rows[0][db.store.id]))}}</td>
+        <td>{{if rows[0].qty<=0:}} OUT OF STOCK {{pass}}</td>
+    </tr>
+{{pass}}
+</table>
+<br><br>
+<b>TOTAL:</b>{{=total}}<br><br>
+
+{{=A('checkout',_class='btn',_href=URL('checkout'))}}
+
+<br><br>
+</body>
+    </html>

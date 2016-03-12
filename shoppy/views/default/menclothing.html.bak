@@ -1,0 +1,31 @@
+<html>
+{{extend 'layout.html'}}
+ <body style="background-image:url(/shoppy/static/images/back2.jpg);background-size:200% 300%;background-repeat: no-repeat;">
+
+<h1>
+    <u>MEN CLOTHING</u>
+</h1>
+<nav>
+    <h5>
+        ALL CLOTHING
+    </h5>
+    <a href="tshirts.html">T-SHIRTS</a>
+    <br>
+    <a href="trousers.html">TROUSERS</a>
+    <br>
+    <a href="jeans.html">JEANS</a>
+    <br>
+    <a href="ethnic.html">ETHNIC WEAR</a>
+    <br>
+    <a href="formal.html">FORMAL SHIRTS</a>
+    <br>
+    <a href="shorts.html">CARGOS, SHORTS AND 3/4THS</a>
+    <br>
+    <a href="suits.html">SUITS AND BLAZERS</a>
+    <br><br>
+    <h5>
+        <a href="main_page.html">BACK TO MAIN PAGE</a>
+    </h5>
+</nav>
+</body>
+    </html>

@@ -1,0 +1,24 @@
+{{extend 'layout.html'}}
+<h1>
+    <b>DRESSES</b>
+</h1>
+
+<div>
+    <h2>
+        {{=data[0].title}}
+    </h2>
+    {{if data[0].image:}}
+    <img src="{{=URL('download1',args=data[0].image)}}" /><br><br>
+    {{else:}}
+    <img src="{{=URL('static','images/noimage.png')}}"/><br><br>
+    {{pass}}
+    <p>
+    <b>MRP : </b>{{=data[0].price}}<br>
+        {{if data[0].offer :}}
+    <b>OFFER : </b> {{=data[0].offer}} %<br><br>
+    {{else:}}
+    <b>OFFER : </b> 0 %<br><br>
+        {{pass}}
+    <b>DESCRIPTION</b> {{=data[0].description}}<br><br>
+    </p>
+</div>

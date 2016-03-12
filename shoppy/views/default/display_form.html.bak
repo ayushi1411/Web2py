@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<center>
+    <h1>
+        SIGN IN
+    </h1>
+    {{=form}}
+</center>

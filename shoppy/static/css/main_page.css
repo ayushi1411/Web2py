@@ -1,0 +1,20 @@
+.navv {
+	background-color:black;
+        color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+}
+.navv:hover{
+	background-color:yellow;
+	color:black;
+
+}
+
+.frontp2 {
+    top:200px;
+    position:absolute;
+    right:300px; 
+    border:10px solid black;
+    width:600px;
+}

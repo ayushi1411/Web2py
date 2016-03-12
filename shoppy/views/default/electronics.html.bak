@@ -1,0 +1,13 @@
+{{extend 'layout.html'}}
+<h1>
+    ELECTRONICS
+</h1>
+<nav>
+    <a href="mobiles.html">MOBILES</a><br>
+    <a href="laptop.html">LAPTOP</a><br>
+    <a href="televisions.html">TELEVISIONS</a><br>
+    <a href="cameras.html">CAMERAS</a><br>
+    <h5>
+        <a href="main_page.html">BACK TO MAIN PAGE</a>
+    </h5>
+</nav>

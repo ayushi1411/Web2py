@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+<html>
+<body style="background-image:url(/shoppy/static/images/back2.jpg);background-size:200% 300%;background-repeat: no-repeat;">
+<h2>
+    Credit Card Details
+    </h2>
+{{=form}}
+</body>
+    </html>

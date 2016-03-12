@@ -1,0 +1,21 @@
+<html>
+{{extend 'layout.html'}}
+<body style="background-image:url(/shoppy/static/images/back2.jpg);background-size:200% 300%;background-repeat: no-repeat;">
+<h2>
+    Payment Method
+    </h2>
+{{=form}}
+<!--<h1>
+    PAYMENT METHOD
+</h1>
+<form action="">
+<input type="radio" name="payment method" value="cod">CASH ON DELIVERY<br>
+<input type="radio" name="payment method" value="credit card">CREDIT CARD
+</form>
+{{=A('PROCEED',_class='btn')}}
+{{if form.vars=="credit_card":}}
+{{redirect(URL('main_page'))}}
+{{session.flash='payment accepted through credit card'}}
+{{pass}}-->
+</body>
+    </html>

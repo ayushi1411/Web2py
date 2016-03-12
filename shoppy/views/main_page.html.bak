@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+<nav>
+    <a href="electronics.html">ELECTRONICS</a>
+    <a href="women.html">WOMEN CLOTHING</a>
+    <a href="men.html">MEN CLOTHING</a>
+    <a href="home.html">HOME APPLIANCES</a>
+    <a href="baby.html">BABY AND KIDS</a>
+    <a href="books.html">BOOKS</a>
+    <a href="offers.html">OFFERS</a>
+</nav>
+
+{{=BEAUTIFY(response._vars)}}

@@ -1,0 +1,29 @@
+{{extend 'layout.html'}}
+<body style="background-image:url(/shoppy/static/images/helpu.jpg);background-size:100% 200%;background-repeat: no-repeat;">
+    <img src="/shoppy/static/images/help_icon.jpeg" alt="Help" />
+    <br/>
+    <br/>
+    <div>
+    <div>
+<h3 class='one'>s
+    How can I talk to official authorities ?
+    </h3>
+    <p>
+        {{=A('click me', callback=URL('default','contact'))}}
+        <iframe class='helpp' src="/shoppy/default/contact"></iframe>
+     <!--   <a href="/shoppy/default/index">How do I sell on shoppy?-->
+    </p>
+        </div>
+        <div>
+            
+    <h3 class='two'>
+        
+        Where can I get my shiipping details?
+    </h3>
+     <p>
+        {{=A('click me', callback=URL('default','shipping'))}}
+        <iframe src="/shoppy/default/shipping"></iframe>
+     <!--   <a href="/shoppy/default/index">How do I sell on shoppy?-->
+    </p>
+            </div>
+        </div>

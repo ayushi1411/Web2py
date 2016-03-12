@@ -1,0 +1,14 @@
+{{extend 'layout.html'}}
+<!--{{backimage = URL('static','images/re.jpg')}}
+<style>
+    div { background-size:cover;}
+</style>
+<div class='hero-unit' style="background-image: url('{{=backimage}}')" >-->
+<h1>
+<center><b>
+    Retailer Details
+    </b></center>
+</h1>
+<br/>
+<br/>
+{{=g}}

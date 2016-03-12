@@ -1,0 +1,24 @@
+<h1>
+    <b>CAMERA</b>
+</h1>
+{{for row in records:}}
+<div>
+    <!--{{=A(_href=URL('show?id= %s'%row.id))}}<br>-->
+    <!--<img src="{{URL(row.image)}}"/><br>-->
+    <a href="{{=URL('showcamera',args=row.id)}}">
+    {{if row.image:}}
+    <img src="{{=URL('download2',args=row.image)}}" /><br><br>
+    {{else:}}
+    <img src="{{=URL('static','images/noimage.png')}}"/><br><br>
+    {{pass}}
+    <p>
+    <h4>{{=row.title}}</h4>
+    <b>MRP : </b>{{=row.price}}<br>
+        {{if row.offer :}}
+    <b>OFFER : </b> {{=row.offer}} %<br><br>
+    {{else:}}
+    <b>OFFER : </b> 0 %<br><br>
+        {{pass}}
+        </a>
+</div>
+{{pass}}

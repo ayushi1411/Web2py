@@ -1,0 +1,86 @@
+<html>
+<head>
+        {{response.files.append(URL('static','css/shipping.css'))}}
+        {{extend 'layout.html'}}
+        {{include 'web2py_ajax.html'}}
+    </head>
+     <body style="background-image:url(/shoppy/static/images/ship1.jpg);background-size:200% 300%;background-repeat: no-repeat;">
+    <p>
+        Usually the order gets placed in around a week after the payment is done.<br/>
+        In case the order not gets placed within the specified timeperiod,<br/>
+        the customer may either contact any of the official autorities <br/>
+        (details specified int he 'Contact Us' menu) or  can <br/>
+        even send an email specifying all the details of the order.<br/>
+    </p>
+         <br/>
+    <div class='ship_class'>
+        <h4>
+            What is cash on delivery?
+        </h4>
+        <div class='ship_class1'>
+            <h6>
+                If you are not comfortable making an online payment on Shoppy, you can opt for the Cash on Delivery (C-o-D) payment method instead. With C-o-D you can pay in cash at the time of actual delivery of the product at your doorstep, without requiring you to make any advance payment online.
+
+
+The maximum order value for a Cash on Delivery (C-o-D) payment is ₹50,000. It is strictly a cash-only payment method. E-Gift Vouchers or store credit cannot be used for C-o-D orders. Foreign currency cannot be used to make a C-o-D payment. Only Indian Rupees accepted.
+            </h6>
+        </div>
+    </div>
+         <br/>
+     <div class='ship_class2'>
+        <h4>
+            How do I pay for a Shoppy purchase?
+        </h4>
+        <div class='ship_class3'>
+            <h6>
+               Shoppy offers you multiple payment methods. Whatever your online mode of payment, you can rest assured that Shoppy's trusted payment gateway partners use secure encryption technology to keep your transaction details confidential at all times.
+
+You may use Internet Banking, E-Gift Voucher (eGV), Cash on Delivery and Wallet to make your purchase.
+
+Shoppy also accepts payments made using Visa, MasterCard, Maestro and American Express credit/debit cards in India and 21 other countries.
+            </h6>
+        </div>
+    </div>
+         <br/>
+    <div class='ship_class'>
+        <h4>
+            What steps does Shoppy take to prevent card fraud?
+        </h4>
+        <div class='ship_class1'>
+            <h6>
+              Shoppy realizes the importance of a strong fraud detection and resolution capability. We and our online payments partners monitor transactions continuously for suspicious activity and flag potentially fraudulent transactions for manual verification by our team.
+
+In the rarest of rare cases, when our team is unable to rule out the possibility of fraud categorically, the transaction is kept on hold, and the customer is requested to provide identity documents. The ID documents help us ensure that the purchases were indeed made by a genuine card holder. We apologise for any inconvenience that may be caused to customers and request them to bear with us in the larger interest of ensuring a safe and secure environment for online transactions.
+
+            </h6>
+        </div>
+    </div>
+         <br/>
+               <div class='ship_class2'>
+        <h4>
+            What steps does Shoppy take to prevent card fraud?
+        </h4>
+        <div class='ship_class3'>
+            <h6>
+              Shoppy realizes the importance of a strong fraud detection and resolution capability. We and our online payments partners monitor transactions continuously for suspicious activity and flag potentially fraudulent transactions for manual verification by our team.
+
+In the rarest of rare cases, when our team is unable to rule out the possibility of fraud categorically, the transaction is kept on hold, and the customer is requested to provide identity documents. The ID documents help us ensure that the purchases were indeed made by a genuine card holder. We apologise for any inconvenience that may be caused to customers and request them to bear with us in the larger interest of ensuring a safe and secure environment for online transactions.
+
+            </h6>
+        </div>
+    </div>
+            <br/>
+               <div class='ship_class'>
+        <h4>
+           Are there any hidden charges (Octroi or Sales Tax) when I make a purchase on Shoppy?
+        <div class='ship_class1'>
+            <h6>
+              Shoppy realizes the importance of a strong fraud detection and resolution capability. We and our online payments partners monitor transactions continuously for suspicious activity and flag potentially fraudulent transactions for manual verification by our team.
+
+In the rarest of rare cases, when our team is unable to rule out the possibility of fraud categorically, the transaction is kept on hold, and the customer is requested to provide identity documents. The ID documents help us ensure that the purchases were indeed made by a genuine card holder. We apologise for any inconvenience that may be caused to customers and request them to bear with us in the larger interest of ensuring a safe and secure environment for online transactions.
+
+            </h6>
+        </div>
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,51 @@
+<html>
+    
+    <head>
+        {{response.files.append(URL('static','css/main_page.css'))}}
+        {{extend 'layout.html'}}
+        {{include 'web2py_ajax.html'}}
+    </head>
+     <body style="background-image:url(/shoppy/static/images/back.png);background-size:200% 300%;background-repeat: no-repeat;">
+   <div class='maindiv'>
+    <div class='frontp1'>
+        <br/>
+    <nav >
+        <a class="navv" href="womenclothing.html">WOMEN CLOTHING</a>|
+        <a class="navv" href="menclothing.html">MEN CLOTHING</a>|
+        <a class="navv" href="book.html">BOOKS</a><br/><br>
+    </nav><br>
+    {{=A('show_cart',_class='btn',_href=URL('show_cart'))}}
+            {{=A('previou buys',_class='btn',_href=URL('previous_buys'))}}
+
+        </div>
+
+<br>
+    <div class='frontp2'>
+        <img height="300" name="slide" src="/shoppy/static/images/main1.png" width="600" />
+    </div>
+</div>
+
+<script language="JavaScript">
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "/shoppy/static/images/main1.png";
+path[1] = "/shoppy/static/images/mainpage4.jpg";
+path[2] = "/shoppy/static/images/mainpage6.jpg";
+path[3] = "/shoppy/static/images/mainpage2.jpg";
+path[4] = "/shoppy/static/images/mainpage3.png";
+path[5] = "/shoppy/static/images/main2.jpg";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",5000);
+}
+window.onload=swapImage;
+</script>
+         
+    </body>
+
+</html>

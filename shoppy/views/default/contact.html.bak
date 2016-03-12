@@ -1,0 +1,49 @@
+{{extend 'layout.html'}}
+<body style="background-image:url(/shoppy/static/images/front_back.jpg);background-size:200% 400%;background-repeat: no-repeat;">
+<div class='cnct_div' >
+    <div>
+        <h3>
+            <u>Call us</u>
+        </h3>
+        <p>
+             We're available 24 hours a day.
+            <br/>
+            <b> (123) 123456</b> or <b>0000 111 2222</b>
+          <br/>
+            Need assistance in buying?
+            <br/>
+            Call our product experts <b>0000 0000 0000</b> 
+            <br/>
+        </div>
+    <div>
+        <br/>
+        <h3>
+            <u>Mail us:</u>
+        </h3>
+        <p>
+            
+        </p>Shoppy Internet Private Limited,<br/>
+        Ozone Manay Tech Park,<br/>
+        #56/18 &amp; 55/09, 7th Floor,<br/>
+        Garvebhavipalya, Hosur Road,<br/>
+        Vadodara - 000000,<br/>
+        Gujarat, India.<br/>
+    </p></div>
+    <div>
+        <br/>
+        <h3>
+           <u>Corporate Address:</u>
+        </h3>
+        <p>
+            
+       Shoppy Internet Private Limited
+            <br/>B2/14, Indorama colony, Butiboori<br/>
+            80 Feet Road, 3rd Block,<br/>
+            Koramangala Industrial Layout,<br/>
+            Nagpur - 390008<br/>
+            Maharashtra, India<br/>
+            Ph: (0123) 300000<br/>
+            CIN: U51109GS2012PTC066107 <br/>
+            </p>
+    </div>
+</body>

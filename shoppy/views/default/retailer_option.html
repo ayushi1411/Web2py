@@ -1,0 +1,19 @@
+</html>
+ 
+    <head>
+        {{extend 'layout.html'}}
+        {{response.files.append(URL('static','css/main_page.css'))}}
+        {{include 'web2py_ajax.html'}}
+    </head>
+    <body>
+    <!--    <button  onclick="location.href='http://youtube.com' ;">Delete</button>
+        <button  onclick="location.href=redirect(URL('add'))">Add</button>
+        <button  onclick="location.href={{=URL('default','add')}} ;">Show</button>
+        <button  onclick="location.href'='#' ;">Upadte</button>  -->
+        {{=A('add',_class='btn',_href=URL('add'))}}
+        {{=A('delete',_class='btn',_href=URL('delete'))}}
+        {{=A('update',_class='btn',_href=URL('update'))}}
+        {{=A('show',_class='btn',_href=URL('show'))}}
+
+    </body>
+</html>
